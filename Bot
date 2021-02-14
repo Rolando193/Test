@@ -4,7 +4,7 @@ local gui_hide_button = {Enum.KeyCode.LeftControl, "h"}
 local plrs = game:GetService("Players")
 local lplr = game:GetService("Players").LocalPlayer
 local TeamBased = true ; local teambasedswitch = "'"
-local presskeytoaim = true; local aimkey = "\"
+local presskeytoaim = true; local aimkey = "."
 aimbothider = false; aimbothiderspeed = .5
 local Aim_Assist = false ; Aim_Assist_Key = {Enum.KeyCode.LeftControl, "z"}
 local espupdatetime = 5; autoesp = false
@@ -293,7 +293,7 @@ Letters_5.BorderSizePixel = 0
 Letters_5.Position = UDim2.new(0.730999887, 0, 0.736877441, 0)
 Letters_5.Size = UDim2.new(0.263999999, 0, 1.05753362, 0)
 Letters_5.Font = Enum.Font.GothamBold
-Letters_5.Text = "\"
+Letters_5.Text = "."
 Letters_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Letters_5.TextSize = 15.000
 Letters_5.TextWrapped = true
